@@ -1,0 +1,8 @@
+{
+  "platformName": "Android",
+  "appium:automationName": "uiautomator2",
+  "appium:appPackage": "org.wikipedia",
+  "appium:appActivity": ".main.MainActivity",
+  "appium:language": "en",
+  "appium:locale": "US"
+}
