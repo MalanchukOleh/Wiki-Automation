@@ -1,6 +1,6 @@
-from appium.options.android import UiAutomator2Options
 import json
 
+from appium.options.android import UiAutomator2Options
 from appium.options.common import AppiumOptions
 
 
