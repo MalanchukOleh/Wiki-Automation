@@ -1,8 +1,8 @@
-import unittest
-from src.tests import search_test
+import pytest
+
+from src.utils.globals.appium_service import appium_service
 
 if __name__ == "__main__":
-    loader = unittest.TestLoader()
-    suite = loader.loadTestsFromModule(search_test)
-    runner = unittest.TextTestRunner()
-    runner.run(suite)
+    appium_service.start()
+    pytest.main()
+    appium_service.stop()
